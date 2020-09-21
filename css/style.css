@@ -75,7 +75,7 @@ a {
     padding-left: 1.2rem;
     padding-right: 1.2rem; }
   .btn.btn-primary {
-    -webkit-box-shadow: 0 5px 15px -5px rgba(87, 83, 201, 0.8) !important;
+    -webkit-box-shadow: 0 5px 15px -5px rgba(67, 64, 160, 0.8) !important;
     box-shadow: 0 5px 15px -5px rgba(87, 83, 201, 0.8) !important; }
     .btn.btn-primary:hover {
       -webkit-box-shadow: 0 5px 15px -5px rgba(87, 83, 201, 0.1) !important;
@@ -513,7 +513,7 @@ h1, h2, h3, h4, h5, h6 {
     box-shadow: 0 2px 5px 0 rgba(18, 208, 218, 0.2); }
 
 .bg-image {
-  height: 75vh;
+  height: 100vh;
   background-size: cover;
   background-position: center center; }
   .bg-image.gradient-1 {

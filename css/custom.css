@@ -1,0 +1,60 @@
+body {
+    font-family: Grandstander, serif;
+}
+
+nav {
+    position: fixed;
+    top: 33%;
+}
+
+nav li {
+    list-style: none;
+    text-align: center;
+    padding-bottom: 3px;
+}
+
+nav li a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+#title {
+    font-size: 75px;
+}
+
+.custom-shape-divider-bottom-1600658284 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1600658284 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 150px;
+}
+
+.custom-shape-divider-bottom-1600658284 .shape-fill {
+    fill: #FFFFFF;
+}
+
+#home {
+    background-color: #6E7FF3;
+}
+
+.page-section {
+    height: 100vh;
+}
+
+#resume {
+    align-items: center;
+    justify-content: center;
+    text-transform: unset !important;
+}
+
