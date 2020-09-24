@@ -1,13 +1,8 @@
 <!DOCTYPE HTML>
 <head>
     <title>Anna Qi</title>
-    <!-- TODO: set a cute favicon (ideas: star) -->
-
-    <!--
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-	<link rel="stylesheet" href="css/nouislider.min.css">
-    <link rel="stylesheet" href="css/bootstrap-datetimepicker.css">
-    -->
+    <!-- favicon generated from https://favicon.io/ -->
+    <link rel="icon" href="images/favicon.ico">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Grandstander">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
@@ -17,19 +12,40 @@
 
     <nav>
         <ul>
-            <li><a class="nav-link" href="#home">Home</a></li>
-            <li><a class="nav-link" href="#about">About</a></li>
-            <li><a class="nav-link" href="#projects">Projects</a></li>
-            <li><a class="nav-link" href="#courses">Courses</a></li>
-            <button class="btn btn-lg btn-light" id="resume">Resume</button>
+            <li><a class="nav-link nav-light" href="#home">Home</a></li>
+            <li><a class="nav-link nav-light" href="#about">About</a></li>
+            <li><a class="nav-link nav-light" href="#projects">Projects</a></li>
+            <li><a class="nav-link nav-light" href="#courses">Courses</a></li>
+            <button class="btn btn-light" id="resume">Resume</button>
         </ul>
     </nav>
 
+    <div id="home" class="site-section bg-image gradient-2" style="background-image: url('images/seattle.jpg')">
+		<div class="container">
+			<div class="row justify-content-end">
+				<div class="col-5">
+                    <h1 class="font-weight-bold mb-0 text-white" id="title"><br><br>HI. I'M ANNA</h1>
+                    <div id="home-desc">
+                        Welcome to my website! It's nice to meet you. I'm a:
+                        <ul class="text-white mt-3">
+                            <li>2nd year bioinformatics student at UCSD</li>
+                            <li>an aspiring bioinformatician</li>
+                            <li>and a web developer!</li>
+                        </ul>
+                        Please scroll down to find out more about me! :)
+                    </div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+    <!--
     <div id="home" class="page-section bg-image">
 		<div class="container text-center">
-			<h1 class="font-weight-bold mb-0 text-white" id="title"><br>HI. I'M ANNA</h1>
+			<h1 class="font-weight-bold mb-0 text-white" id="title"><br>HI. I'M ANNA.</h1>
 		</div>
     </div>
+    -->
 
     <!-- Custom divider from https://www.shapedivider.app/ -->
     <div class="custom-shape-divider-bottom-1600658284">
@@ -41,11 +57,83 @@
     </div>
 
     <div id="about" class="page-section">
+        <div class="row justify-content-end">
+            <div class="col-4">
+                <img id="me-pic" src='images/happy.JPG' alt="a picture of me smiling with my camera and a sunset behind me!">
+            </div>
+            <div class="col-6 my-auto ml-4" id="about-me">
+                <h3>Education</h3>
+                <b>University of California San Diego</b> La Jolla CA<br>
+                <p class="date mb-0">September 2019 - July 2023</p>
+                <ul>
+                    <li>B.S. Bioinformatics</li>
+                    <li>GPA: 3.885</li>
+                </ul>
 
+                <h3 class="mt-2">Professional Experience</h3>
+                <b>Academic Personnel Assistant</b> Scripps Institute of Oceanography, La Jolla CA
+                <p class="date mb-0">January 2020 - March 2020</p>
+                <ul>
+                    <li>Mantain and expand an online database for professors at Scripps</li>
+                    <li>Digitize physical records and compile informational spreadsheets</li>
+                </ul>
+                <b>Math and English Tutor</b> Kwan Academy, San Jose CA
+                <p class="date mb-0">August 2018 - June 2019</p>
+                <ul>
+                    <li>Tutored elementary and middle school kids math and language arts</li>
+                    <li>Communicated daily progress to parents through google spreadsheets</li>
+                </ul>
+
+                <h3 class="mt-2">Extracurriculars</h3>
+                <b>Webmaster and Project Team Member</b> Engineering World Health, La Jolla CA
+                <p class="date mb-0">October 2019 - CURRENT</p>
+                <ul>
+                    <li>Update and design the <a href="https://ewh.ucsd.edu">website</a> using HTML, CSS, and Bootstrap</li>
+                    <li>Researched, planned, and designed sustainable gait correcting shoes</li>
+                </ul>
+                
+            </div>
+        </div>
     </div>
 
-    <div id="projects" class="page-section">
-
+    <div id="projects" class="page-section text-center">
+        <h1>Projects</h1>
+        <div>Here are some of the things I'm working on in order to showcase my skills!</div>
+        <div class="row justify-content-center mt-4">
+            <div class="col-5">
+                <div class="project">
+                    <h3>Website for EWH at UCSD</h3>
+                    As the webmaster for my club, I improved and updated the website originally built from a template. Website is used
+                    as the forefront for connecting current as well as prospective members to the club's leadership. <br>
+                    <b>Tools used:</b> HTML, CSS, Bootstrap, Chrome DevTools<br>
+                    <a href="https://ewh.ucsd.edu">ewh.ucsd.edu</a>
+                </div>
+                <div class="project">
+                    <h3>Etch-a-sketch</h3>
+                    A simple web page made to mimic the classic Ethc-a-sketch toy. Simply works by changing the color
+                    of the grid squares when the mouse hovers over them. Has custom grid sizing.<br>
+                    <b>Tools used:</b> HTML, CSS, JavaScript<br>
+                    <a href="https://bananna16.github.io/etch-a-sketch/">Etch-a-sketch</a>
+                </div>
+            </div>
+            <div class="col-5">
+                <div class="project">
+                    <h3>Calculator</h3>
+                    A simple web page that has the functionality of a basic calculator. Implemented the add, subtract, multiply, divide, 
+                    delete, and clear functionalities. <br>
+                    <b>Tools used:</b> HTML, CSS, JavaScript<br>
+                    <a href="https://bananna16.github.io/calculator/">Calculator</a>
+                </div>
+                <div class="project">
+                    <h3>Rock-paper-scissors</h3>
+                    A simple webpage that pits the user against the computer with randomized choices in games of Rock Paper Scissors. 
+                    Keeps track of the results with screens for winning and the ability to reset.<br>
+                    <b>Tools used:</b> HTML, CSS, Javascript<br>
+                    <a href="https://bananna16.github.io/rock-paper-scissors/">Rock-Paper-Scissors</a>
+                </div>
+            </div>
+        </div>
+        Go to my <a href="https://github.com/bananna16">GitHub</a> for other projects
     </div>
 
     <div id="courses" class="page-section">
@@ -56,13 +144,4 @@
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/custom.js"></script>
-    <!--
-    <script src="js/jquery-3.3.1.min.js"></script>
-	<script src="js/popper.min.js"></script>
-	<script src="js/bootstrap.min.js"></script>
-	<script src="js/moments.min.js"></script>
-	<script src="js/bootstrap-datetimepicker.js"></script>
-    <script src="js/nouislider.min.js"></script>
-    <script src="js/main.js"></script>
-    -->
 </body>
