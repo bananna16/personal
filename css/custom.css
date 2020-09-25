@@ -75,7 +75,9 @@ a.nav-dark:hover {
 }
 
 .page-section {
-    height: 100vh;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    color: black;
 }
 
 #resume {
@@ -90,7 +92,7 @@ a.nav-dark:hover {
 }
 
 #me-pic {
-    padding-top: 100px;
+    padding-top: 40px;
     width: 100%;
     position: relative;
 }
@@ -113,16 +115,16 @@ a.nav-dark:hover {
 }
 
 #about-me {
-    padding-top: 65px;
+    padding-top: 5px;
     font-size: 17px;
-    font-family: "Work Sans", sans-serif;
     vertical-align: middle;
     height: 100%;
     color: black;
 }
 
-#about-me h3 {
+h2 {
     color: #515fbd;
+    font-size: 28px;
 }
 
 .page-section a {
@@ -138,23 +140,14 @@ a.nav-dark:hover {
     color: gray;
 }
 
-#projects h1 {
-    padding-top: 60px;
+h1 {
     color: #515fbd;
-}
-
-#projects {
-    color: black;
 }
 
 .project {
     background-color: #f7f8f9;
     width: 100%;
     margin: 0px 20px 20px 20px;
-    padding: 10px;
+    padding: 15px;
     border-radius: 10px;
-}
-
-.project h3 {
-    color: #515fbd;
 }
