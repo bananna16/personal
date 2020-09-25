@@ -45,6 +45,7 @@ a.nav-dark:hover {
 }
 
 #title {
+    padding-top: 40%;
     font-family: Grandstander, serif;
     font-size: 60px;
 }
@@ -128,7 +129,7 @@ h2 {
 }
 
 .page-section a {
-    color: #6E7FF3;
+    color: #5d6bc9;
 }
 
 .page-section a:hover {
@@ -137,7 +138,7 @@ h2 {
 
 .date {
     font-size: 15px;
-    color: gray;
+    color: #636363;
 }
 
 h1 {

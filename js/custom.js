@@ -5,6 +5,7 @@ let resumeButton = document.getElementById("resume");
 let primaryColor = '#6E7FF3';
 let secondaryColor = 'white';
 
+
 window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
