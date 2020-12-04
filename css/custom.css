@@ -93,7 +93,6 @@ a.nav-dark:hover {
 }
 
 #me-pic {
-    padding-top: 40px;
     width: 100%;
     position: relative;
 }
@@ -121,6 +120,10 @@ a.nav-dark:hover {
     vertical-align: middle;
     height: 100%;
     color: black;
+}
+
+#about-me b {
+    font-size: 19px;
 }
 
 h2 {
