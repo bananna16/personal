@@ -17,7 +17,7 @@
             <li><a class="nav-link nav-light" href="#about">About</a></li>
             <li><a class="nav-link nav-light" href="#projects">Projects</a></li>
             <li><a class="nav-link nav-light" href="#courses">Courses</a></li>
-            <a href="resume_annaqi.pdf"><button class="btn btn-light" id="resume">Resume</button></a>
+            <a href="annaqi_resume.pdf"><button class="btn btn-light" id="resume">Resume</button></a>
         </ul>
     </nav>
 
@@ -25,12 +25,13 @@
 		<div class="container">
 			<div class="row justify-content-end">
 				<div class="col-5">
-                    <h1 class="font-weight-bold mb-0 text-white" id="title">HI. I'M ANNA</h1>
+                    <h1 class="font-weight-bold mb-0 text-white" id="title">HI. I'M ANNA.</h1>
                     <div id="home-desc">
                         Welcome to my website! It's nice to meet you. I'm a:
                         <ul class="text-white mt-3">
-                            <li>2nd year bioinformatics student at UCSD</li>
-                            <li>an aspiring bioinformatician</li>
+                            <li>bioinformatics undegraduate at UCSD</li>
+                            <li>class of 2022</li>
+                            <li>an aspiring bioinformatics software developer</li>
                             <li>and a novice web developer!</li>
                         </ul>
                         Please scroll down to find out more about me! :)
@@ -39,14 +40,6 @@
 			</div>
 		</div>
 	</div>
-
-    <!--
-    <div id="home" class="page-section bg-image">
-		<div class="container text-center">
-			<h1 class="font-weight-bold mb-0 text-white" id="title"><br>HI. I'M ANNA.</h1>
-		</div>
-    </div>
-    -->
 
     <!-- Custom divider from https://www.shapedivider.app/ -->
     <div class="custom-shape-divider-bottom-1600658284">
@@ -58,22 +51,40 @@
     </div>
 
     <div id="about" class="page-section">
+        <h1 class="text-center">About Me</h1>
         <div class="row justify-content-end">
-            <div class="col-4 my-auto">
-                <img id="me-pic" src='images/happy.JPG' alt="a picture of me smiling with my camera and a sunset behind me!">
+            <div class="col-4">
+                <img class="intro-pic my-2" src='images/happy.JPG' alt="a picture of me smiling with my camera and a sunset behind me!">
+                <img class="intro-pic my-2" src='images/luna.jpg' alt='a siamese lynx point cat laying on the carpet'>
             </div>
             <div class="col-6 my-auto ml-4" id="about-me">
                 <h2>Education</h2>
                 <b>University of California San Diego</b> La Jolla CA<br>
-                <p class="date mb-0">September 2019 - July 2023</p>
+                <p class="date mb-0">September 2019 - July 2022</p>
                 <ul>
                     <li>B.S. Bioinformatics</li>
-                    <li>GPA: 3.904</li>
+                    <li>GPA: 3.91</li>
                 </ul>
 
                 <h2 class="mt-2">Professional Experience</h2>
+                <b>Summer Student Worker</b> Pfizer, Kalamazoo MI
+                <p class="date mb-0">June 2021 - CURRENT</p>
+                <ul>
+                    <li>Developed and implemented R package using genetic algorithms to speed up development of
+                        spectral models by 90+% while improving accuracy and robustness</li>
+                    <li>Developed R package for extracting data from the process historian. Then used three-way block
+                        data analysis methods to predict the final particle size distribution of a crystallization reaction or
+                        fermentation yield based on batch record data</li>
+                </ul>
+                <b>Student Website Assistant</b> Biology IT Department at UCSD, La Jolla CA
+                <p class="date mb-0">March 2021 - CURRENT</p>
+                <ul>
+                    <li>Complete website content updates, style changes, website maintenance and quality control on
+                        the <a href="https://biology.ucsd.edu/">biology division website for departmental staff<</a>/li>
+                    <li>Refactor outdated back-end scripts for loading in data with JavaScript and Handlebars</li>
+                </ul>
                 <b>Academic Personnel Assistant</b> Scripps Institute of Oceanography, La Jolla CA
-                <p class="date mb-0">January 2020 - CURRENT</p>
+                <p class="date mb-0">January 2020 - March 2021</p>
                 <ul>
                     <li>Mantain and expand an online database for professors at Scripps</li>
                     <li>Digitize physical records and compile informational spreadsheets</li>
@@ -84,16 +95,18 @@
                     <li>Tutored elementary and middle school kids math and language arts</li>
                     <li>Communicated daily progress to parents through google spreadsheets</li>
                 </ul>
-
                 <h2 class="mt-2">Extracurriculars</h2>
                 <b>Undergradute Bioinformatics Researcher</b> Chi Hua Chen Lab, La Jolla CA
                 <p class="date mb-0">October 2020 - CURRENT</p>
                 <ul>
-                    <li>Utilizing different statistical packages in R to understand factors that affect an individual’s
-                        deviation in brain age from their actual age.</li>
+                    <li>Writing scripts in R to perform data exploration and visualize relationships between inversion
+                        polymorphisms and genotypes in different individuals using linear regression models and
+                        heatmaps</li>
+                    <li>Utilizing R packages to perform localization, propagation, and clustering to identify and analyze
+                        proximal genes to Alzheimer’s disease-risk genes</li>
                 </ul>
                 <b>Webmaster and Project Team Member</b> Engineering World Health, La Jolla CA
-                <p class="date mb-0">October 2019 - CURRENT</p>
+                <p class="date mb-0">October 2019 - May 2021</p>
                 <ul>
                     <li>Update and design the <a href="https://ewh.ucsd.edu">website</a> using HTML, CSS, and Bootstrap</li>
                     <li>2021: Designing a user-centric diabetes monitoring application in conjunction with a local nonprofit, Champions for Health.</li>
@@ -147,7 +160,7 @@
     <div id="courses" class="page-section text-center">
         <h1>Courses</h1>
         One of my absolutely favorite things to do is to learn more about topics that I'm interested in! Here are some of the
-        courses that I have finished in the past.
+        courses that I have finished in the past and/or am taking now.
         <div class="row justify-content-center mt-4">
             <div class="col-5">
                 <div class="project">
@@ -185,10 +198,10 @@
             <div class="pt-4 col-6">
                 <h2>Some Fun Facts! :)</h2>
                 <ul class="text-left">
-                    <li>Video games are one of my favorite pasttimes! Some of my favorites are Spiritfarer and Stardew Valley</li>
+                    <li>Video games are one of my favorite hobbies! Some of my favorites are VALORANT, Spiritfarer, and Stardew Valley</li>
                     <li>I also absolutely love reading. My recent favorite books are The Starless Sea, Little Women, and The Hiding Place</li>
                     <li>I was born in Missouri, but have grown up in Texas, Seattle, and most recently San Jose</li>
-                    <li>I'm the oldest of my family, I have a little sister and a little brother</li>
+                    <li>I'm the oldest of my family, I have a little sister and a little brother!</li>
                 </ul>
             </div>
         </div>

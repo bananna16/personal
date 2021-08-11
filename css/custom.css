@@ -76,7 +76,7 @@ a.nav-dark:hover {
 }
 
 .page-section {
-    padding-top: 60px;
+    padding-top: 40px;
     padding-bottom: 60px;
     color: black;
 }
@@ -92,7 +92,7 @@ a.nav-dark:hover {
     padding: 10px;
 }
 
-#me-pic {
+.intro-pic {
     width: 100%;
     position: relative;
 }
@@ -128,7 +128,7 @@ a.nav-dark:hover {
 
 h2 {
     color: #515fbd;
-    font-size: 28px;
+    font-size: 26px;
 }
 
 .page-section a {
